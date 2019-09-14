@@ -1,7 +1,11 @@
 from unittest import TestCase
-from com.Guilherme import num_div
+from com.Guilherme.num_div import Operacoes
 
-def test_num_div():
-    assert num_div.num_div(20,10)
+class TestOperacoes(TestCase):
+    def setUp(self):
+        self.num_div = Operacoes()
 
+    
+    def test_num_div(self):
+        assert Operacoes.num_div(20,10)
 
