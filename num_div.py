@@ -1,3 +1,5 @@
-def num_div(x,y):
-    div = x/y
-    return div
+class Operacoes():
+    
+    def num_div(self, y):
+        div = self/y
+        return div
